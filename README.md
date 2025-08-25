@@ -45,9 +45,13 @@ On change (with a debounce) betterwriting.vim will split the chunk of text in vi
 
 #### Hightlight Overused Words
 
+Add an orange underscore to overused and weak words.
+
 ```
 [very, really, stuff, something, thing]
 ```
+
+<img width="887" height="83" alt="image" src="https://github.com/user-attachments/assets/c487f90c-11b1-4376-a6f1-06cffc9badf8" />
 
 #### Max Two Commas
 
