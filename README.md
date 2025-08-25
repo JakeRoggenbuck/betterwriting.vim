@@ -22,7 +22,9 @@ This also serves as a good way for me to internalize and learn these rules that 
 
 ## Configure
 
-TODO: Allow a list to be defined in the vim configuration for words to highlight in red.
+```vim
+let g:overused_words = ['something', 'very', 'really', 'thing', 'stuff', 'because of the fact']
+```
 
 ## Install
 
@@ -53,9 +55,13 @@ On change (with a debounce) betterwriting.vim will split the chunk of text in vi
 
 Add an orange underscore to overused and weak words.
 
+Default list:
+
+```vim
+let g:overused_words = ['something', 'very', 'really', 'thing', 'stuff', 'because of the fact']
 ```
-[very, really, stuff, something, thing]
-```
+
+You can also set your own in the config.
 
 <img width="887" height="83" alt="image" src="https://github.com/user-attachments/assets/c487f90c-11b1-4376-a6f1-06cffc9badf8" />
 
