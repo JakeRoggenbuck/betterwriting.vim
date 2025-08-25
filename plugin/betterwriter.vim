@@ -1,7 +1,7 @@
 " betterwriter.vim - Offer suggestions in Vim for simple and effective writing
-" Authors:      Jake Roggenbuck
-" Version:      0.1.0
-" License:      MIT
+" Authors:		Jake Roggenbuck
+" Version:		0.1.0
+" License:		MIT
 
 if exists('g:loaded_betterwriter_plugin') || &compatible || v:version < 700
 	finish
@@ -18,7 +18,7 @@ augroup HighlightWordOrange
 	autocmd!
 	" TODO: Make this dynamic from a list like g:overused_words = []
 	autocmd BufEnter,BufReadPost * syntax match OrangeWord /\<\(something\|very\|really\|thing\|stuff\)\>/
-  	autocmd ColorScheme * highlight OrangeWord cterm=undercurl gui=undercurl guisp=orange | syntax match OrangeWord /\<\(something\|very\|really\|thing\|stuff\)\>/
+	autocmd ColorScheme * highlight OrangeWord cterm=undercurl gui=undercurl guisp=orange | syntax match OrangeWord /\<\(something\|very\|really\|thing\|stuff\)\>/
 augroup END
 
 highlight OrangeWord cterm=undercurl gui=undercurl guisp=orange
