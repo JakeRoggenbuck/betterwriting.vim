@@ -15,9 +15,10 @@ set termguicolors
 syntax on
 
 augroup HighlightWordOrange
-  autocmd!
-  autocmd BufEnter,BufReadPost * syntax match OrangeWord /\<\(something\|very\|really\|thing\|stuff\)\>/
-  autocmd ColorScheme * highlight OrangeWord cterm=undercurl gui=undercurl guisp=orange | syntax match OrangeWord /\<\(something\|very\|really\|thing\|stuff\)\>/
+	autocmd!
+	" TODO: Make this dynamic from a list like g:overused_words = []
+	autocmd BufEnter,BufReadPost * syntax match OrangeWord /\<\(something\|very\|really\|thing\|stuff\)\>/
+  	autocmd ColorScheme * highlight OrangeWord cterm=undercurl gui=undercurl guisp=orange | syntax match OrangeWord /\<\(something\|very\|really\|thing\|stuff\)\>/
 augroup END
 
 highlight OrangeWord cterm=undercurl gui=undercurl guisp=orange
