@@ -23,7 +23,7 @@ This also serves as a good way for me to internalize and learn these rules that 
 ## Configure
 
 ```vim
-let g:overused_words = ['something', 'very', 'really', 'thing', 'stuff']
+let g:overused_words = ['something', 'very', 'really', 'thing', 'stuff', 'been']
 ```
 
 ## Install
@@ -58,12 +58,16 @@ Add an orange underscore to overused and weak words.
 Default list:
 
 ```vim
-let g:overused_words = ['something', 'very', 'really', 'thing', 'stuff', 'because of the fact']
+let g:overused_words = ['something', 'very', 'really', 'thing', 'stuff', 'been']
 ```
 
 You can also set your own in the config.
 
 <img width="887" height="83" alt="image" src="https://github.com/user-attachments/assets/c487f90c-11b1-4376-a6f1-06cffc9badf8" />
+
+TODO: 
+
+Add 'because of the fact that', 'this show', 'this tells'
 
 #### Max Two Commas
 
