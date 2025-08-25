@@ -1,9 +1,9 @@
 # betterwriting.vim
 
-[![Vim](https://img.shields.io/badge/Vim-%2311AB00.svg?logo=vim&logoColor=white&style=for-the-badge)](https://vimawesome.com/plugin/draft-vim)
+[![Vim](https://img.shields.io/badge/Vim-%2311AB00.svg?logo=vim&logoColor=white&style=for-the-badge)](https://github.com/JakeRoggenbuck/betterwriting.vim)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=python&sort=stargazers)
-[![Version](https://img.shields.io/badge/v0.8-blue?style=for-the-badge)](#)
-[![Python](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/draft.vim/python.yml?branch=main&style=for-the-badge)](https://github.com/JakeRoggenbuck/draft.vim/actions)
+[![Version](https://img.shields.io/badge/v0.1.0-blue?style=for-the-badge)](#)
+[![Python](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/betterwriting.vim/python.yml?branch=main&style=for-the-badge)](https://github.com/JakeRoggenbuck/betterwriting.vim/actions)
 
 Offer writing suggestions in Vim.
 
