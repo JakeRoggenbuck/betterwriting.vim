@@ -65,7 +65,8 @@ You can also set your own in the config.
 
 <img width="887" height="83" alt="image" src="https://github.com/user-attachments/assets/c487f90c-11b1-4376-a6f1-06cffc9badf8" />
 
-TODO: 
+
+**TODO:**
 
 Add 'because of the fact that', 'this show', 'this tells'
 
