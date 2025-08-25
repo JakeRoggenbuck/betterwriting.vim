@@ -15,7 +15,7 @@ set termguicolors
 syntax on
 
 if !exists('g:overused_words')
-	let g:overused_words = ['something', 'very', 'really', 'thing', 'stuff', 'because of the fact']
+	let g:overused_words = ['something', 'very', 'really', 'thing', 'stuff']
 endif
 
 function! s:BetterwriterApplyHighlight() abort
