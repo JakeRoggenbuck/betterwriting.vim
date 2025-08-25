@@ -24,6 +24,12 @@ This also serves as a good way for me to internalize and learn these rules that 
 
 TODO: Allow a list to be defined in the vim configuration for words to highlight in red.
 
+## Install
+
+```vim
+Plug 'JakeRoggenbuck/betterwriting.vim'
+```
+
 ## Features
 
 #### Completed Features
