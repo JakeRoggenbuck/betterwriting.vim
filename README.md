@@ -5,7 +5,7 @@
 [![Version](https://img.shields.io/badge/v0.1.0-blue?style=for-the-badge)](#)
 [![Python](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/betterwriting.vim/python.yml?branch=main&style=for-the-badge)](https://github.com/JakeRoggenbuck/betterwriting.vim/actions)
 
-Offer writing suggestions in Vim.
+Offer suggestions in Vim for simple and effective writing.
 
 > [!IMPORTANT]  
 > Very early development
