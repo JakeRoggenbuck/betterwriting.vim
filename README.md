@@ -18,6 +18,8 @@ I often use overuse words like 'very', 'really', 'stuff', 'something', and 'thin
 
 I will also implement ideas from the [Flesch–Kincaid readability tests](https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests) and [Better Business Writing](https://hbsp.harvard.edu/product/10946-PDF-ENG).
 
+This also serves as a good way for me to internalize and learn these rules that I want to follow.
+
 ## Configure
 
 TODO: Allow a list to be defined in the vim configuration for words to highlight in red.
