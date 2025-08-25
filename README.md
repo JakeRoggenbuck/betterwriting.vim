@@ -5,7 +5,10 @@
 [![Version](https://img.shields.io/badge/v0.8-blue?style=for-the-badge)](#)
 [![Python](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/draft.vim/python.yml?branch=main&style=for-the-badge)](https://github.com/JakeRoggenbuck/draft.vim/actions)
 
-Offer writing suggestions in Vim
+Offer writing suggestions in Vim.
+
+> [!IMPORTANT]  
+> Very early development
 
 ## Rational
 
