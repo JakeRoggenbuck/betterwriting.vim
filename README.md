@@ -1,11 +1,11 @@
 # betterwriting.vim
 
-[![Vim](https://img.shields.io/badge/Vim-%2311AB00.svg?logo=vim&logoColor=white&style=for-the-badge)](https://vimawesome.com/plugin/draft-vim)
+[![Vim](https://img.shields.io/badge/Vim-%2311AB00.svg?logo=vim&logoColor=white&style=for-the-badge)](https://github.com/JakeRoggenbuck/betterwriting.vim)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/JakeRoggenbuck?tab=repositories&q=&type=&language=python&sort=stargazers)
-[![Version](https://img.shields.io/badge/v0.8-blue?style=for-the-badge)](#)
-[![Python](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/draft.vim/python.yml?branch=main&style=for-the-badge)](https://github.com/JakeRoggenbuck/draft.vim/actions)
+[![Version](https://img.shields.io/badge/v0.1.0-blue?style=for-the-badge)](#)
+[![Python](https://img.shields.io/github/actions/workflow/status/jakeroggenbuck/betterwriting.vim/python.yml?branch=main&style=for-the-badge)](https://github.com/JakeRoggenbuck/betterwriting.vim/actions)
 
-Offer writing suggestions in Vim.
+Offer suggestions in Vim for simple and effective writing.
 
 > [!IMPORTANT]  
 > Very early development
@@ -17,6 +17,8 @@ Technical writing is a critical skill. This plugin offered suggestions and point
 I often use overuse words like 'very', 'really', 'stuff', 'something', and 'thing'. I also make sentences too long, while including 'and' too many times.
 
 I will also implement ideas from the [Flesch–Kincaid readability tests](https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests) and [Better Business Writing](https://hbsp.harvard.edu/product/10946-PDF-ENG).
+
+This also serves as a good way for me to internalize and learn these rules that I want to follow.
 
 ## Configure
 
