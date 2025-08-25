@@ -17,8 +17,8 @@ syntax on
 augroup HighlightWordOrange
 	autocmd!
 	" TODO: Make this dynamic from a list like g:overused_words = []
-	autocmd BufEnter,BufReadPost * syntax match OrangeWord /\<\(something\|very\|really\|thing\|stuff\)\>/
-	autocmd ColorScheme * highlight OrangeWord cterm=undercurl gui=undercurl guisp=orange | syntax match OrangeWord /\<\(something\|very\|really\|thing\|stuff\)\>/
+	autocmd BufEnter,BufReadPost * syntax match OrangeWord /\c\<\(something\|very\|really\|thing\|stuff\)\>/
+	autocmd ColorScheme * highlight OrangeWord cterm=undercurl gui=undercurl guisp=orange | syntax match OrangeWord /\c\<\(something\|very\|really\|thing\|stuff\)\>/
 augroup END
 
 highlight OrangeWord cterm=undercurl gui=undercurl guisp=orange
