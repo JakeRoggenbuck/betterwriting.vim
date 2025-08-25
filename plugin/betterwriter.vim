@@ -11,13 +11,20 @@ let g:loaded_betterwriter_plugin = 1
 
 let s:plugin_root_dir = fnamemodify(resolve(expand('<sfile>:p')), ':h')
 
-highlight HightlightWordRed cterm=undercurl gui=undercurl guisp=red
-highlight HightlightWordOrange cterm=undercurl gui=undercurl guisp=orange
-highlight HightlightWordYellow cterm=undercurl gui=undercurl guisp=yellow
+set termguicolors
+syntax on
+
+augroup HighlightWordOrange
+  autocmd!
+  autocmd BufEnter,BufReadPost * syntax match OrangeWord /\<somthing\>/
+  autocmd ColorScheme * highlight OrangeWord cterm=undercurl gui=undercurl guisp=orange | syntax match OrangeWord /\<somthing\>/
+augroup END
+
+highlight OrangeWord cterm=undercurl gui=undercurl guisp=orange
 
 " TODO: Make this dynamic based on a variable
-syntax match HightlightWordOrange /\<something\>/
-syntax match HightlightWordOrange /\<very\>/
-syntax match HightlightWordOrange /\<really\>/
-syntax match HightlightWordOrange /\<thing\>/
-syntax match HightlightWordOrange /\<stuff\>/
+" syntax match HightlightWordOrange /\<something\>/
+" syntax match HightlightWordOrange /\<very\>/
+" syntax match HightlightWordOrange /\<really\>/
+" syntax match HightlightWordOrange /\<thing\>/
+" syntax match HightlightWordOrange /\<stuff\>/
