@@ -23,7 +23,7 @@ This also serves as a good way for me to internalize and learn these rules that 
 ## Configure
 
 ```vim
-let g:overused_words = ['something', 'very', 'really', 'thing', 'stuff', 'because of the fact']
+let g:overused_words = ['something', 'very', 'really', 'thing', 'stuff']
 ```
 
 ## Install
