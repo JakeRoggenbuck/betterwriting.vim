@@ -11,7 +11,9 @@ let g:loaded_betterwriter_plugin = 1
 
 let s:plugin_root_dir = fnamemodify(resolve(expand('<sfile>:p')), ':h')
 
+highlight HightlightWordRed cterm=undercurl gui=undercurl guisp=red
 highlight HightlightWordOrange cterm=undercurl gui=undercurl guisp=orange
+highlight HightlightWordYellow cterm=undercurl gui=undercurl guisp=yellow
 
 " TODO: Make this dynamic based on a variable
 syntax match HightlightWordOrange /\<something\>/
