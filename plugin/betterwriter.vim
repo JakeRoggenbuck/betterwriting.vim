@@ -16,15 +16,8 @@ syntax on
 
 augroup HighlightWordOrange
   autocmd!
-  autocmd BufEnter,BufReadPost * syntax match OrangeWord /\<somthing\>/
-  autocmd ColorScheme * highlight OrangeWord cterm=undercurl gui=undercurl guisp=orange | syntax match OrangeWord /\<somthing\>/
+  autocmd BufEnter,BufReadPost * syntax match OrangeWord /\<\(something\|very\|really\|thing\|stuff\)\>/
+  autocmd ColorScheme * highlight OrangeWord cterm=undercurl gui=undercurl guisp=orange | syntax match OrangeWord /\<\(something\|very\|really\|thing\|stuff\)\>/
 augroup END
 
 highlight OrangeWord cterm=undercurl gui=undercurl guisp=orange
-
-" TODO: Make this dynamic based on a variable
-" syntax match HightlightWordOrange /\<something\>/
-" syntax match HightlightWordOrange /\<very\>/
-" syntax match HightlightWordOrange /\<really\>/
-" syntax match HightlightWordOrange /\<thing\>/
-" syntax match HightlightWordOrange /\<stuff\>/
