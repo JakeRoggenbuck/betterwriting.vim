@@ -27,7 +27,7 @@ augroup HighlightWordBlue
 	autocmd!
 	" TODO: Make this dynamic from a list like g:weak_phrases = []
 	autocmd BufEnter,BufReadPost * syntax match BlueWord /\c\<\(i think\|i believe\|i'd imagine\|i imagine\|can see that\|this shows that\)\>/
-	autocmd ColorScheme * highlight BlueWord cterm=undercurl gui=undercurl guisp=orange | syntax match BlueWord /\c\<\(i think\|i believe\|i'd imagine\|i imagine\|can see that\|this shows that\)\>/
+	autocmd ColorScheme * highlight BlueWord cterm=undercurl gui=undercurl guisp=blue | syntax match BlueWord /\c\<\(i think\|i believe\|i'd imagine\|i imagine\|can see that\|this shows that\)\>/
 augroup END
 
-highlight BlueWord cterm=undercurl gui=undercurl guisp=orange
+highlight BlueWord cterm=undercurl gui=undercurl guisp=blue
